@@ -1,0 +1,38 @@
+.Home, .Quiz ,.Score {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 2px solid gray;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 236, 152);
+}
+input{
+    width: 200px;
+    border: none;
+    padding: 5px;
+}
+button, .Quiz button{
+   
+    margin: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid white;
+    width: 300px;
+    height: 50px;
+ }
+label{
+    font-size: 15px;
+    color: rgb(17, 16, 16);
+    margin-bottom: 5px;
+    
+}
+.Option{
+display: flex;
+flex-direction: column;
+}
+.Option::after{
+    background: red;
+}
